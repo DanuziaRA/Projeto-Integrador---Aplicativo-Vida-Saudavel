@@ -58,10 +58,11 @@ A criação do Vida+Saudável permite:
 
 ## Tecnologias Utilizadas  
 🔹 **Frontend**: 
-🔹 **Backend**:   
+🔹 **Backend**:  
 🔹 **Banco de Dados**: 
 🔹 **Autenticação**: 
-🔹 **Monitoramento**: 
+🔹 **Monitoramento**:
+
 ---
 
 ## Estrutura do Repositório  
