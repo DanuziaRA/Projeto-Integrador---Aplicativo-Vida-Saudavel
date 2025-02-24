@@ -28,7 +28,7 @@ Os objetivos específicos incluem:
 ✅ Oferecer um ambiente digital intuitivo e acessível para o autocuidado.  
 
 ---
-## 🏆 Justificativa  
+## Justificativa  
 A necessidade de plataformas de promoção da saúde nunca foi tão evidente. O aumento de doenças crônicas e a relevância da saúde mental demandam soluções acessíveis e inovadoras.  
 A criação do Vida+Saudável permite:  
 ✅ Prevenção de doenças através do monitoramento de indicadores.  
@@ -38,7 +38,7 @@ A criação do Vida+Saudável permite:
 
 ---
 
-## 💡 Funcionalidades  
+## Funcionalidades  
 🔹 **Monitoramento de Saúde**: Usuários acompanham indicadores como pressão arterial, glicemia, IMC, entre outros.  
 🔹 **Notificações Inteligentes**: Alertas para exames, vacinas e consultas.  
 🔹 **Plano Personalizado de Saúde**: Recomendações com base no estilo de vida e histórico médico.  
@@ -64,7 +64,7 @@ A criação do Vida+Saudável permite:
 🔹 **Monitoramento**: 
 ---
 
-## 📂 Estrutura do Repositório  
+## Estrutura do Repositório  
 
 ```bash
 📦 Vida+Saudável
