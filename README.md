@@ -1,5 +1,8 @@
 # Projeto Integrador Senac - Aplicativo Vida+Saudável
 Este é o projeto final da segunda etapa do Trabalho de Conclusão de Trimestre do Curso de Tecnologia em Análise e Desenvolvimento de Sistemas, do Centro Universitário Senac – Santo Amaro, EAD. O Projeto Integrador tem como objetivo o desenvolvimento de uma solução orientada a objetos, com a criação de um aplicativo móvel e web para o sistema de saúde, nomeado "Vida+Saudável".
+
+---
+
 **Integrantes do grupo**: 
 - Aillin Baldan Duran
 - Beatriz Maximiano Sampaio
