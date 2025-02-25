@@ -45,20 +45,20 @@ Conteúdo:\
 
 
 ### 📂frontend (Código do aplicativo web e mobile) 
-Este diretório contém o código-fonte do aplicativo desenvolvido para web e dispositivos móveis. \
+Este diretório contém o código-fonte do aplicativo desenvolvido para web e dispositivos móveis. 
 
 **Recomendações de leitura**: 
 1. Consulte o arquivo README.md dentro do diretório para entender a estrutura do frontend.
 
 ### 📂backend (API e banco de dados)
-Este diretório contém a API e a estrutura do banco de dados do projeto. \
+Este diretório contém a API e a estrutura do banco de dados do projeto. 
 
 **Recomendações de leitura**: 
 1. Verifique o README.md dentro da pasta backend para entender as tecnologias utilizadas. 
 2. Consulte a documentação das rotas da API e a estrutura dos endpoints.
 
 ### 📜 .gitignore (Arquivos ignorados pelo Git)
-Este arquivo define quais arquivos e diretórios não devem ser versionados pelo Git. \
+Este arquivo define quais arquivos e diretórios não devem ser versionados pelo Git. 
 
 **Recomendações de leitura**: 
 1. Confira as regras do .gitignore para garantir que arquivos sensíveis ou não necessários não sejam enviados ao repositório.
