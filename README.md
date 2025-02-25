@@ -37,12 +37,11 @@ Conteúdo:\
 4. Explore a Prova de Conceito para validar as soluções propostas.
 
 📱**Acesso aos Documentos no GitHub Mobile** 
- 
-  Para acessá-los no **GitHub Mobile**, siga as instruções:  
-  1. **Abra o aplicativo GitHub** no seu dispositivo.  
-  2. **Navegue até o repositório** do projeto Vida+Saudável.  
-  3. Vá até a **pasta de documentos** e selecione o arquivo desejado.  
-  4. Toque em **"View raw"** para visualizar ou baixar o arquivo.
+ >  Para acessá-los no **GitHub Mobile**, siga as instruções:  
+ > 1. **Abra o aplicativo GitHub** no seu dispositivo.  
+ > 2. **Navegue até o repositório** do projeto Vida+Saudável.  
+ > 3. Vá até a **pasta de documentos** e selecione o arquivo desejado.  
+ > 4. Toque em **"View raw"** para visualizar ou baixar o arquivo.
 
 
 ### 📂frontend (Código do aplicativo web e mobile) 
