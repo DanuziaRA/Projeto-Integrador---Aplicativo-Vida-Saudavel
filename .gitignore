@@ -39,9 +39,6 @@ npm-debug.log*
 # Arquivos de test coverage
 coverage/
 
-# Arquivos de logs de aplicação
-*.log
-
 # Arquivos de banco de dados locais
 *.sqlite
 *.db
@@ -56,11 +53,6 @@ coverage/
 *.bak
 *.tmp
 
-# Node.js
-node_modules/
-npm-debug.log
-yarn-error.log
-dist/
-
 # Ignorar documentos PDF
 *.pdf
+
