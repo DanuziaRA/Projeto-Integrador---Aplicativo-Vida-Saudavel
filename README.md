@@ -15,9 +15,9 @@ Este é o projeto final da segunda etapa do Trabalho de Conclusão de Trimestre 
  ┣ 📂 documentação # Documentação do projeto
  ┣ 📂 frontend     # Código do aplicativo web e mobile
  ┣ 📂 backend      # API e banco de dados
- ┣ 📜 README.md    # Apresentação do projeto
+ ┣ 📜 package.json # Configuração do projeto
  ┣ 📜 .gitignore   # Arquivos ignorados pelo Git
- ┗ 📜 package.json # Configuração do projeto
+ ┗ 📜 README.md    # Apresentação do projeto
 
 ```
 ### 📂 documentação (Documentação do projeto)
