@@ -8,6 +8,83 @@ Este é o projeto final da segunda etapa do Trabalho de Conclusão de Trimestre 
 - Beatriz Maximiano Sampaio
 - Danuzia Moreira Rocha
 
+---
+# Estrutura do Repositório  
+```text
+📦 Vida+Saudável
+ ┣ 📂 documentação # Documentação do projeto
+ ┣ 📂 frontend    # Código do aplicativo web e mobile
+ ┣ 📂 backend     # API e banco de dados
+ ┣ 📜 README.md   # Apresentação do projeto
+ ┣ 📜 .gitignore  # Arquivos ignorados pelo Git
+ ┗ 📜 package.json # Configuração do projeto
+
+```
+### 📂 documentação (Documentação do projeto)
+⚠️ **Caso o arquivo não abra diretamente no aplicativo, utilize a opção "Abrir em navegador" para baixar e visualizar o conteúdo.**  
+
+Este diretório contém materiais essenciais para entender o projeto, suas revisões e a prova de conceito.
+Conteúdo:\
+Proposta de Revisão do Projeto (.pdf) – Documento detalhando os ajustes sugeridos para o projeto após análises iniciais. \
+Protótipo revisado e ajustado (vídeo .mp4) – Demonstração visual das mudanças aplicadas ao protótipo. \
+Relatório de Registro de Ajustes (.pdf) – Listagem das modificações feitas com justificativas e impactos. \
+Prova de Conceito (.pdf) – Implementação básica para validar a viabilidade do projeto.
+
+**Recomendações de leitura**:
+1. Comece com a Proposta de Revisão do Projeto para entender o contexto das mudanças.
+2. Assista ao vídeo do Protótipo revisado e ajustado para uma visão prática.
+3. Leia o Relatório de Registro de Ajustes para conferir as modificações detalhadas.
+4. Explore a Prova de Conceito para validar as soluções propostas.
+
+📱**Acesso aos Documentos no GitHub Mobile** 
+ 
+  Para acessá-los no **GitHub Mobile**, siga as instruções:  
+  1. **Abra o aplicativo GitHub** no seu dispositivo.  
+  2. **Navegue até o repositório** do projeto Vida+Saudável.  
+  3. Vá até a **pasta de documentos** e selecione o arquivo desejado.  
+  4. Toque em **"View raw"** para visualizar ou baixar o arquivo.
+
+
+### 📂frontend (Código do aplicativo web e mobile) 
+Este diretório contém o código-fonte do aplicativo desenvolvido para web e dispositivos móveis. \
+
+**Recomendações de leitura**: 
+1. Consulte o arquivo README.md dentro do diretório para entender a estrutura do frontend.
+
+### 📂backend (API e banco de dados)
+Este diretório contém a API e a estrutura do banco de dados do projeto. \
+
+**Recomendações de leitura**: 
+1. Verifique o README.md dentro da pasta backend para entender as tecnologias utilizadas. 
+2. Consulte a documentação das rotas da API e a estrutura dos endpoints.
+
+### 📜 .gitignore (Arquivos ignorados pelo Git)
+Este arquivo define quais arquivos e diretórios não devem ser versionados pelo Git. \
+
+**Recomendações de leitura**: 
+1. Confira as regras do .gitignore para garantir que arquivos sensíveis ou não necessários não sejam enviados ao repositório.
+
+### 📜 package.json (Configuração do projeto)
+O arquivo principal de configuração do projeto em Node.js, contendo: 
+1. Dependências do projeto
+2. Scripts para execução e build
+3. Informações gerais sobre o projeto
+
+**Recomendações de leitura**:
+1. Leia a seção de scripts para entender como rodar o projeto (npm start, npm test, etc.).
+2. Consulte a lista de dependências para saber quais pacotes são utilizados.
+
+--- 
+
+## Tecnologias Utilizadas  
+🔹 **Frontend**: \
+🔹 **Backend**:  \
+🔹 **Banco de Dados**: \
+🔹 **Autenticação**: \
+🔹 **Monitoramento**: 
+
+---
+
 # 🏥 Vida+Saudável
 
 > **Plataforma integrada para a gestão da saúde individual e coletiva.**  
@@ -65,13 +142,4 @@ A criação do Vida+Saudável permite:
 
 ---
 
-## Estrutura do Repositório  
 
-```bash
-📦 Vida+Saudável
- ┣ 📂 frontend    # Código do aplicativo web e mobile
- ┣ 📂 backend     # API e banco de dados
- ┣ 📂 docs        # Documentação do projeto
- ┣ 📜 README.md   # Apresentação do projeto
- ┣ 📜 .gitignore  # Arquivos ignorados pelo Git
- ┗ 📜 package.json # Configuração do projeto
