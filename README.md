@@ -25,10 +25,10 @@ Este é o projeto final da segunda etapa do Trabalho de Conclusão de Trimestre 
 
 Este diretório contém materiais essenciais para entender o projeto, suas revisões e a prova de conceito.
 Conteúdo:\
-Proposta de Revisão do Projeto (.pdf) – Documento detalhando os ajustes sugeridos para o projeto após análises iniciais. \
-Protótipo revisado e ajustado (vídeo .mp4) – Demonstração visual das mudanças aplicadas ao protótipo. \
-Relatório de Registro de Ajustes (.pdf) – Listagem das modificações feitas com justificativas e impactos. \
-Prova de Conceito (.pdf) – Implementação básica para validar a viabilidade do projeto.
+**Proposta de Revisão do Projeto (.pdf)** – Documento detalhando os ajustes sugeridos para o projeto após análises iniciais. \
+**Protótipo revisado e ajustado (vídeo .mp4)** – Demonstração visual das mudanças aplicadas ao protótipo. \
+**Relatório de Registro de Ajustes (.pdf)** – Listagem das modificações feitas com justificativas e impactos. \
+**Prova de Conceito (.pdf)** – Implementação básica para validar a viabilidade do projeto.
 
 **Recomendações de leitura**:
 1. Comece com a Proposta de Revisão do Projeto para entender o contexto das mudanças.
