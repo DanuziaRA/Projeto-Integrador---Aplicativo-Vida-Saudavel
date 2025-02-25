@@ -83,6 +83,9 @@ O arquivo principal de configuração do projeto em Node.js, contendo:
 🔹 **Monitoramento**: 
 
 ---
+# Instruções para executar o projeto 
+
+---
 
 # 🏥 Vida+Saudável
 
@@ -132,13 +135,5 @@ A criação do Vida+Saudável permite:
 
 --- 
 
-## Tecnologias Utilizadas  
-🔹 **Frontend**: 
-🔹 **Backend**:  
-🔹 **Banco de Dados**: 
-🔹 **Autenticação**: 
-🔹 **Monitoramento**:
-
----
 
 
