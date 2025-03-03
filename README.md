@@ -32,8 +32,8 @@ Conteúdo:\
 **Prova de Conceito (.pdf)** – Implementação básica para validar a viabilidade do projeto. \
 **Resultado da Prova de Conceito (.pdf)** – Implementação básica para validar a viabilidade do projeto.
 
-**Recomendações de leitura**:
-⚠️ **Sugere fazer o download dos documentos.**
+**Recomendações de leitura**: \
+⚠️ **Sugere-se fazer o download dos documentos.**
 1. Comece com a Proposta de Revisão do Projeto para entender o contexto das mudanças.
 2. Assista ao vídeo do Protótipo revisado e ajustado para uma visão prática.
 3. Leia o Relatório de Registro de Ajustes para conferir as modificações detalhadas e o documento de Preparação do ambiente de desenvolvimento.
@@ -79,14 +79,78 @@ O arquivo principal de configuração do projeto em Node.js, contendo:
 --- 
 
 ## Tecnologias Utilizadas  
-🔹 **Frontend**: \
-🔹 **Backend**:  \
-🔹 **Banco de Dados**: \
-🔹 **Autenticação**: \
-🔹 **Monitoramento**: 
+
+🔹**Frontend:** Javascript, HTML e CSS; \
+🔹**Backend e API - Banco de Dados:** Node.js com Express.
 
 ---
+
 # Instruções para executar o projeto 
+
+## Pré-requisitos
+Antes de começar, certifique-se de ter instalado em sua máquina:
+- [Node.js](https://nodejs.org/) (versão LTS recomendada)
+- [Git](https://git-scm.com/)
+- Um gerenciador de pacotes: `npm` (padrão do Node.js)
+
+---
+
+## Clonando o Repositório
+Abra o terminal e execute:
+
+```sh
+git clone 
+cd Projeto-Integrador---Aplicativo-Vida-Saudavel
+```
+---
+
+## Configurando o Back-end
+**1️.Acesse o diretório do backend:**
+cd backend
+
+**2. Instale as dependências:**
+npm install
+
+**3. Configurar variáveis de ambiente:**
+Crie um arquivo .env na raiz do backend e adicione as credenciais do banco de dados:
+DB_HOST=localhost \
+DB_USER=postgres \
+DB_PASSWORD=1234 \
+DB_NAME=vida_mais_saudavel \
+DB_PORT=5432 \
+JWT_SECRET=seu_segredo_jwt
+
+**4.Crie um arquivo .env na raiz do backend e adicione as credenciais do banco de dados:** \
+npx prisma migrate dev \
+ou \
+npx sequelize-cli db:migrate
+
+**5. Rodar o servidor Express.js:** \
+npm run dev 
+
+Observações: O backend já inclui cors, permitindo requisições do frontend.
+
+⚠️ Atenção! O backend estará rodando em http://localhost:3000 
+
+---
+
+## Configurando o Front-end
+**1.Acesse o diretório do frontend:**
+
+**2.Instale as dependências:** \
+npm install
+
+**3.Crie um arquivo .env na raiz do frontend e adicione a URL do backend:** \
+REACT_APP_API_URL=http://localhost:3000
+PORT=3001
+
+**Se a variável de ambiente PORT=3001 não funcionar, inicie o frontend com o comando:** \
+PORT=3001 npm start
+
+**4.Iniciar o front-end:** \
+npm start
+
+⚠️ **Atenção! Após a adequação no arquivo .env o frontend estará disponível em http://localhost:3001**
 
 ---
 
@@ -110,6 +174,7 @@ Os objetivos específicos incluem:
 ✅ Oferecer um ambiente digital intuitivo e acessível para o autocuidado.  
 
 ---
+
 ## Justificativa  
 A necessidade de plataformas de promoção da saúde nunca foi tão evidente. O aumento de doenças crônicas e a relevância da saúde mental demandam soluções acessíveis e inovadoras.  
 A criação do Vida+Saudável permite:  
@@ -128,10 +193,8 @@ A criação do Vida+Saudável permite:
 🔹 **Ações Comunitárias**: Engajamento em campanhas preventivas e suporte entre usuários.  
 🔹 **Relatórios Automatizados**: Geração de insights sobre a saúde individual e coletiva.  
 🔹 **Gamificação**: Sistema de recompensas para incentivar hábitos saudáveis.  
-🔹 **Suporte Multilíngue**: Inclusão de comunidades multiculturais.  
-🔹 **Integração com Wearables**: Conexão com dispositivos como smartwatches para monitoramento em tempo real.  
-
 ---
+
 ## Público-Alvo  
 👨‍💼 Adultos de 25 a 50 anos: Pessoas interessadas em **monitorar e melhorar sua saúde.  
 👩‍⚕️ Profissionais de saúde: Médicos, enfermeiros e nutricionistas que **necessitam acompanhar pacientes. 
