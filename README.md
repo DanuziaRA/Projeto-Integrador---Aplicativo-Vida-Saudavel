@@ -28,13 +28,15 @@ Conteúdo:\
 **Proposta de Revisão do Projeto (.pdf)** – Documento detalhando os ajustes sugeridos para o projeto após análises iniciais. \
 **Protótipo revisado e ajustado (vídeo .mp4)** – Demonstração visual das mudanças aplicadas ao protótipo. \
 **Relatório de Registro de Ajustes (.pdf)** – Listagem das modificações feitas com justificativas e impactos. \
-**Prova de Conceito (.pdf)** – Implementação básica para validar a viabilidade do projeto.
+**Prova de Conceito (.pdf)** – Implementação básica para validar a viabilidade do projeto. \
+**Resultado da Prova de Conceito (.pdf)** – Implementação básica para validar a viabilidade do projeto.
 
 **Recomendações de leitura**:
+⚠️ **Sugere fazer o download dos documentos.**
 1. Comece com a Proposta de Revisão do Projeto para entender o contexto das mudanças.
 2. Assista ao vídeo do Protótipo revisado e ajustado para uma visão prática.
 3. Leia o Relatório de Registro de Ajustes para conferir as modificações detalhadas.
-4. Explore a Prova de Conceito para validar as soluções propostas.
+4. Explore a Prova de Conceito para validar as soluções propostas. 
 
 📱**Acesso aos Documentos no GitHub Mobile** 
  >  Para acessá-los no **GitHub Mobile**, siga as instruções:  
