@@ -99,7 +99,7 @@ Antes de começar, certifique-se de ter instalado em sua máquina:
 Abra o terminal e execute:
 
 ```sh
-git clone 
+git clone https://github.com/DanuziaRA/Projeto-Integrador---Aplicativo-Vida-Saudavel.git
 cd Projeto-Integrador---Aplicativo-Vida-Saudavel
 ```
 ---
