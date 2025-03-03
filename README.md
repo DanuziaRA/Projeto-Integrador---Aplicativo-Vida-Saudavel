@@ -28,7 +28,7 @@ Conteúdo:\
 **Proposta de Revisão do Projeto (.pdf)** – Documento detalhando os ajustes sugeridos para o projeto após análises iniciais. \
 **Protótipo revisado e ajustado (vídeo .mp4)** – Demonstração visual das mudanças aplicadas ao protótipo. \
 **Relatório de Registro de Ajustes (.pdf)** – Listagem das modificações feitas com justificativas e impactos. \
-**Preparação de ambiente.**
+**Preparação do ambiente de desenvolvimento.** \
 **Prova de Conceito (.pdf)** – Implementação básica para validar a viabilidade do projeto. \
 **Resultado da Prova de Conceito (.pdf)** – Implementação básica para validar a viabilidade do projeto.
 
