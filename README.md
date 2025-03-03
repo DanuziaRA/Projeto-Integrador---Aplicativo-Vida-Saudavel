@@ -141,7 +141,7 @@ Observações: O backend já inclui cors, permitindo requisições do frontend.
 npm install
 
 **3.Crie um arquivo .env na raiz do frontend e adicione a URL do backend:** \
-REACT_APP_API_URL=http://localhost:3000
+REACT_APP_API_URL=http://localhost:3000 \
 PORT=3001
 
 **Se a variável de ambiente PORT=3001 não funcionar, inicie o frontend com o comando:** \
