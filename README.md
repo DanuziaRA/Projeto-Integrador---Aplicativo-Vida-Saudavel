@@ -111,8 +111,8 @@ cd backend
 **2. Instale as dependências:**
 npm install
 
-**3. Configurar variáveis de ambiente:**
-Crie um arquivo .env na raiz do backend e adicione as credenciais do banco de dados:
+**3. Configurar variáveis de ambiente:** \
+Crie um arquivo .env na raiz do backend e adicione as credenciais do banco de dados:\
 DB_HOST=localhost \
 DB_USER=postgres \
 DB_PASSWORD=1234 \
