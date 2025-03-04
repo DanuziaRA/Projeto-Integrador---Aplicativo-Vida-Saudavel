@@ -192,7 +192,8 @@ A criação do Vida+Saudável permite:
 🔹 **Integração com Profissionais de Saúde**: Médicos e enfermeiros acessam dados e acompanham pacientes.  
 🔹 **Ações Comunitárias**: Engajamento em campanhas preventivas e suporte entre usuários.  
 🔹 **Relatórios Automatizados**: Geração de insights sobre a saúde individual e coletiva.  
-🔹 **Gamificação**: Sistema de recompensas para incentivar hábitos saudáveis.  
+🔹 **Gamificação**: Sistema de recompensas para incentivar hábitos saudáveis. 
+
 ---
 
 ## Público-Alvo  
