@@ -12,10 +12,9 @@ Este é o projeto final da segunda etapa do Trabalho de Conclusão de Trimestre 
 # Estrutura do Repositório  
 ```text
 📦 Vida+Saudável
- ┣ 📂 documentação # Documentação do projeto
- ┣ 📂 backend      # API e banco de dados
  ┣ 📂 frontend     # Código do aplicativo web e mobile
- ┣ 📜 package.json # Configuração do projeto
+ ┣ 📂 backend      # API, banco de dados e package.json 
+ ┣ 📂 documentação # Documentação do projeto
  ┣ 📜 .gitignore   # Arquivos ignorados pelo Git
  ┗ 📜 README.md    # Apresentação do projeto
 
