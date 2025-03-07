@@ -13,8 +13,8 @@ Este é o projeto final da segunda etapa do Trabalho de Conclusão de Trimestre 
 ```text
 📦 Vida+Saudável
  ┣ 📂 documentação # Documentação do projeto
- ┣ 📂 frontend     # Código do aplicativo web e mobile
  ┣ 📂 backend      # API e banco de dados
+ ┣ 📂 frontend     # Código do aplicativo web e mobile
  ┣ 📜 package.json # Configuração do projeto
  ┣ 📜 .gitignore   # Arquivos ignorados pelo Git
  ┗ 📜 README.md    # Apresentação do projeto
