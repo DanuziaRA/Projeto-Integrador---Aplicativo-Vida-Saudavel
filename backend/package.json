@@ -1,0 +1,19 @@
+{
+  "name": "vida-mais-saudavel-backend",
+  "version": "1.0.0",
+  "description": "Backend do app Vida+Saudável",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "sequelize": "^6.31.0",
+    "pg": "^8.11.1",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
