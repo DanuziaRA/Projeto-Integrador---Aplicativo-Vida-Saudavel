@@ -196,8 +196,8 @@ A criação do Vida+Saudável permite:
 ---
 
 ## Público-Alvo  
-👨‍💼 Adultos de 25 a 50 anos: Pessoas interessadas em **monitorar e melhorar sua saúde.  
-👩‍⚕️ Profissionais de saúde: Médicos, enfermeiros e nutricionistas que **necessitam acompanhar pacientes. 
+👨‍💼 Adultos de 25 a 50 anos: Pessoas interessadas em monitorar e melhorar sua saúde.  
+👩‍⚕️ Profissionais de saúde: Médicos, enfermeiros e nutricionistas que necessitam acompanhar pacientes. 
 
 --- 
 
