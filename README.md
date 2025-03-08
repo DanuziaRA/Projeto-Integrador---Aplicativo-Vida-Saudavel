@@ -20,6 +20,11 @@ Este é o projeto final da segunda etapa do Trabalho de Conclusão de Trimestre 
  ┗ 📜 README.md    # Apresentação do projeto
 
 ```
+### 📂 Vídeo apresentação do aplicativo Vida+Saudável
+⚠️ **Visualize o arquivo mp4 com um clique na opção "View Raw". Em seguida, iniciará o download do conteúdo.** 
+
+----------
+
 ### 📂 documentação (Documentação do projeto)
 ⚠️ **Caso o arquivo não abra diretamente no aplicativo, utilize a opção "Abrir em navegador" para baixar e visualizar o conteúdo.**  
 
