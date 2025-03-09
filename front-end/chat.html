@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat de Saúde</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        .chat-container {
+            width: 400px;
+            height: 600px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        .chat-box {
+            flex-grow: 1;
+            overflow-y: auto;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #fafafa;
+        }
+
+        .chat-input {
+            display: flex;
+            gap: 10px;
+        }
+
+        .chat-input input[type="text"] {
+            flex-grow: 1;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .chat-input button {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .chat-input button:hover {
+            background-color: #45a049;
+        }
+
+        .message {
+            margin: 10px 0;
+        }
+
+        .message.patient {
+            text-align: left;
+        }
+
+        .message.professional {
+            text-align: right;
+            color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="chat-container">
+        <h2>Chat entre Profissional de Saúde e Paciente</h2>
+
+        <div class="chat-box" id="chat-box">
+            <!-- Mensagens do chat vão aparecer aqui -->
+        </div>
+
+        <div class="chat-input">
+            <input type="text" id="message-input" placeholder="Digite sua mensagem..." />
+            <button onclick="sendMessage()">Enviar</button>
+        </div>
+    </div>
+
+    <script>
+        // Função para enviar a mensagem
+        function sendMessage() {
+            const messageInput = document.getElementById('message-input');
+            const chatBox = document.getElementById('chat-box');
+            const messageText = messageInput.value.trim();
+
+            if (messageText !== '') {
+                // Adiciona a mensagem do paciente ao chat
+                const patientMessage = document.createElement('div');
+                patientMessage.classList.add('message', 'patient');
+                patientMessage.textContent = messageText;
+                chatBox.appendChild(patientMessage);
+
+                // Limpa o campo de input
+                messageInput.value = '';
+
+                // Rola o chat para baixo
+                chatBox.scrollTop = chatBox.scrollHeight;
+
+                // Resposta automática do profissional de saúde
+                setTimeout(() => {
+                    const professionalMessage = document.createElement('div');
+                    professionalMessage.classList.add('message', 'professional');
+                    professionalMessage.textContent = "Como posso te ajudar?"; // Resposta fixa para o exemplo
+                    chatBox.appendChild(professionalMessage);
+
+                    // Rola o chat para baixo após resposta
+                    chatBox.scrollTop = chatBox.scrollHeight;
+                }, 1000);
+            }
+        }
+    </script>
+
+</body>
+</html>

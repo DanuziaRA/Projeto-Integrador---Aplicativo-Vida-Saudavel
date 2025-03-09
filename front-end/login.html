@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vida+Saudável</title>
+    <link rel="stylesheet" href="styles.css">
+        <script defer src="script.js"></script>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                text-align: center;
+                margin: 0;
+                padding: 0;
+            }
+            .container {
+                background: white;
+                max-width: 400px;
+                margin: 20px auto;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            }
+            .banner {
+                width: 85%;
+                border-radius: 10px;
+            }
+            .hidden {
+                display: none;
+            }
+            .logo {
+                width: 340px;
+                border-radius: 5px;
+            }
+            form {
+    width: 300px; 
+    margin: auto; 
+    padding: 20px;
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    background-color: #f9f9f9; 
+}
+
+.form p {
+    font-weight: bold; 
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px; /* Bordas arredondadas nos inputs */
+    box-sizing: border-box;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #166534;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px; 
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0f4221; /* Tom mais escuro ao passar o mouse */
+}
+h2 {
+    text-align: center;
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: #166534; 
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 8px 0;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #0f4221; 
+}
+
+.cancel {
+    background-color: #166534; 
+}
+
+.cancel:hover {
+    background-color: #0f4221; 
+}
+
+            div{
+                width:320px;
+                height:50px;
+                padding:10px;
+                border:5px solid gray;
+                margin:0px;
+    
+            }
+            .container {
+    width: 100%;
+    max-width: 400px; /* Limita a largura do formulário */
+    margin: auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    font-size: 22px;
+    color: #166534; /* Verde escuro */
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, select, textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 80px;
+    resize: vertical;
+}
+
+input[type="file"] {
+    padding: 5px;
+    background: white;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 10px;
+    display: flex;
+    align-items: left;
+    gap: 2px;
+    margin-bottom: 1px;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: #166534;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 8px 0;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #0f4221; 
+}
+.btn1 {
+    width: 75%;
+    padding: 12px;
+    border: none;
+    background-color: #166534;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 8px 0;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn1:hover {
+    background-color: #0f4221; 
+}
+
+.cancel {
+    background-color: #166534; 
+}
+
+.cancel:hover {
+    background-color: #0f4221; 
+}
+div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espaçamento entre os checkboxes */
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Espaçamento entre a caixa de seleção e o texto */
+    color: #333;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    accent-color: #166534;
+    cursor: pointer;
+}
+
+/* Responsividade */
+@media (max-width: 480px) {
+    .container {
+        padding: 15px;
+    }
+    
+    h2 {
+        font-size: 20px;
+    }
+    
+    input, select, textarea {
+        font-size: 13px;
+    }
+
+    .btn {
+        font-size: 14px;
+    }
+}
+        </style>
+    </head>
+    <body>
+        <main>
+            <section id="login" class="container">
+                <img src="./img/marca VidaSaudavel.jpg" alt="Vida+Saudável" class="logo">
+                <img src="./img/logo.jpg" alt="Saúde" class="banner">
+                <form class="form">
+                    
+                    <button class="social-login google" onclick="loginGoogle()">Continue pelo Google</button>
+                    
+                    <p>E-mail</p>
+                    <input type="email" placeholder="Digite seu e-mail" required>
+                    <br>
+                    <p>Senha</p>
+                    <br> <input type="password" placeholder="Digite sua senha" required>
+                    
+                        <button class="btn" onclick="redirectToUserPage()">Entrar</button>
+                        <script>
+                        function redirectToUserPage() {
+                            window.location.href = "./page-user.html";
+                            }
+                            </script>
+
+                <a href="#"
+                class="forgot-password">Esqueceu a senha?</a>
+                <button class="btn register" onclick="openRegisterOptions()">Registre-se</button>
+            </form>
+            </section>
+            //----------------------------------------------------------------------------------------------------------------------------------//
+            <section id="register-options" class="container hidden">
+                <img src="./img/marca VidaSaudavel.jpg" alt="Vida+Saudável" class="logo">
+                <img src="./img/logo.jpg" alt="Saúde" class="banner">
+                <h2>Escolha o tipo de cadastro</h2>
+                <button class="btn" onclick="openUserRegister()">Cadastro Usuário</button>
+                <button class="btn" onclick="openProfessionalRegister()">Cadastro Profissional</button>
+                <button class="btn cancel" onclick="goBack()">Voltar</button>
+            </section>
+            <section id="register-user" class="container hidden">
+                <img src="./img/marca VidaSaudavel.jpg" alt="Saúde" class="banner">
+                <h2>Cadastro Usuário</h2>
+                <form>
+                    <input type="text" placeholder="Nome Completo" required>
+                    <input type="text" placeholder="Endereço" required>
+                    <input type="email" placeholder="E-mail" required>
+                    <input type="password" placeholder="Senha" required>
+                    <select required>
+                        <option value="">Gênero</option>
+                        <option value="feminino">Feminino</option>
+                        <option value="masculino">Masculino</option>
+                    </select>
+                    <select required>
+                        <option value="">Faixa Etária</option>
+                        <option value="18-50">18-50</option>
+                        <option value="50-80">50-80</option>
+                    </select>
+                    <input type="text" placeholder="CPF" required>
+                    <select required>
+                        <option value="">Doença crônica ou condição hereditária</option>
+                        <option value="sim">Sim</option>
+                        <option value="não">Não</option>
+                    </select>
+                    <select required>
+                        <option value="">Você está acostumado com drogas e álcool?</option>
+                        <option value="sim">Sim</option>
+                        <option value="não">Não</option>
+                    </select>
+                    <select required>
+                        <option value="">Você consegue realizar suas atividades diárias?</option>
+                        <option value="sim">Sim</option>
+                        <option value="não">Não</option>
+                    </select>
+                    <select required>
+                        <option value="">Com que frequência você faz exames médicos?</option>
+                        <option value="1">1 vez ao ano</option>
+                        <option value="2">2 vezes ao ano</option>
+                        <option value="3">3 vezes ao ano</option>
+                    </select>
+                    <select required>
+                        <option value="">Com que frequência realiza exercícios físicos?</option>
+                        <option value="2">2 vezes por semana</option>
+                        <option value="3">3 vezes por semana</option>
+                        <option value="4">4 vezes por semana</option>
+                        <option value="5">5 ou mais vezes por semana</option>
+                    </select>
+                    <textarea placeholder="Escreva os nomes dos medicamentos usados continuamente ou com frequência alta."></textarea>
+                    <label><input type="checkbox" required> Eu aceito os Termos de Dados/Privacidade</label>
+                    <label><input type="checkbox" required> Afirmo ser maior de idade</label>
+                    <button type="submit" class="btn">Salvar informações</button>
+                    <button type="button" class="btn cancel" onclick="openRegisterOptions()">Voltar</button>
+                    
+                </form>
+            </section>
+            
+            <section id="register-professional" class="container hidden">
+                <img src="./img/marca VidaSaudavel.jpg" alt="Saúde" class="logo">
+                <h2>Cadastro Profissional</h2>
+                <form>
+                    <input type="text" placeholder="Nome Completo" required>
+                    <input type="text" placeholder="Registro Profissional" required>
+                    <input type="text" placeholder="Área de atuação" required>
+                    <input type="email" placeholder="E-mail" required>
+                    <input type="password" placeholder="Senha" required>
+                    <input type="text" placeholder="Registro Profissional" required>
+                    <input type="file" accept="image/*" required>
+                    <select required>
+                        <option value="">Especialidades e serviços fornecidos</option>
+                        <option value="endocrinologia">Endocrinologia</option>
+                        <option value="nutricional">Nutricional</option>
+                    </select>
+                    <textarea placeholder="Vínculo com instituições e unidades de saúde"></textarea>
+                    <select required>
+                        <option value="">Experiência com Programa Saúde da Família</option>
+                        <option value="menos de 1 ano">Menos de 1 ano</option>
+                        <option value="1 ano ou mais">1 ano ou mais</option>
+                    </select>
+                    <textarea placeholder="Experiência ou interesse em saúde de gênero"></textarea>
+                    <textarea placeholder="Experiência ou interesse em farmacologia"></textarea>
+                    <textarea placeholder="Tem interesse na elaboração de protocolos clínicos e diretrizes terapêuticas"></textarea>
+                    <label><input type="checkbox" required> Eu aceito os Termos de Dados/Privacidade</label>
+                    <label><input type="checkbox" required> Afirmo ser maior de idade</label>
+                    
+                </form>
+                <a href="./page-prof.html"><button type="submit" class="btn1">Salvar informações</button></a>
+                <a href="./login.html"><button type="submit" class="btn1">Voltar</button></a>
+            </section>
+
+        </main>
+        <script>
+            function openRegisterOptions() {
+                document.getElementById("login").classList.add("hidden");
+                document.getElementById("register-options").classList.remove("hidden");
+                document.getElementById("register-user").classList.add("hidden");
+                document.getElementById("register-professional").classList.add("hidden");
+                document.getElementById("page-user").classList.add("hidden");
+            }
+            function openUserRegister() {
+                document.getElementById("register-options").classList.add("hidden");
+                document.getElementById("register-user").classList.remove("hidden");
+            }
+            function openProfessionalRegister() {
+                document.getElementById("register-options").classList.add("hidden");
+                document.getElementById("register-professional").classList.remove("hidden");
+            }
+            function goBack() {
+                document.getElementById("register-options").classList.add("hidden");
+                document.getElementById("login").classList.remove("hidden");
+            }
+        </script>
+    </body>
+    </html>
+    
+    
