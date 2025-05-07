@@ -6,7 +6,7 @@
                                   
                                                                            
 
-![VIDA+SAUDÁVEL]([https://github.com/DanuziaRA/Projeto-Integrador---Aplicativo-Vida-Saudavel/blob/main/documenta%C3%A7%C3%A3o/logo%20git.jpg](https://github.com/DanuziaRA/Projeto-Integrador---Aplicativo-Vida-Saudavel/blob/main/documenta%C3%A7%C3%A3o/logo%20git.jpg)) 
+![VIDA+SAUDÁVEL](https://github.com/DanuziaRA/Projeto-Integrador---Aplicativo-Vida-Saudavel/blob/main/documenta%C3%A7%C3%A3o/logo%20git%20(2).jpg) 
                                                
 Este é o projeto final da segunda etapa do Trabalho de Conclusão de Trimestre do Curso de Tecnologia em Análise e Desenvolvimento de Sistemas, do Centro Universitário Senac – Santo Amaro, EAD. O Projeto Integrador tem como objetivo o desenvolvimento de uma solução orientada a objetos, com a criação de um aplicativo móvel e web para o sistema de saúde, nomeado "Vida+Saudável".
 
